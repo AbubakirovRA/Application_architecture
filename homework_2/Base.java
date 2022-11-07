@@ -29,13 +29,13 @@ public class Base {
 
         System.out.println("-------------------");
 
-
         //characters Abstact factory method
         Heroes Archer2 = ArcherFactory.getFactory().CreateCharater("Mikle", "SimpleBow", "Non exiting armor name");
         Heroes Knight2 = KnightFactory.getFactory().CreateCharater("WIlliam", "EpicSword", "Basic");
-        
+                
         System.out.println(Archer2.getCharInfoString());
         System.out.println("");
         System.out.println(Knight2.getCharInfoString());
+
     }
 }
