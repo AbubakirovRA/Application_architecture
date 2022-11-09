@@ -18,6 +18,6 @@ public class Square extends Rectangle{
 
     @Override
     public String tittle(){
-        return "Square " + length + " x " + length + ".";
+        return "Square with sides: " + length + " x " + length + ".";
     }
 }

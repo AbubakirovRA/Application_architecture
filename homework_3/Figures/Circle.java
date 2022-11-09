@@ -20,7 +20,7 @@ public class Circle extends Figures {
 
     @Override
     public String tittle(){
-        return "Circle: " + radius + ".";
+        return "Circle: radius " + radius + ".";
     }
     
 }

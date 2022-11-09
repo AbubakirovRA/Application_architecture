@@ -13,7 +13,7 @@ public class Triangle extends Figures{
 
     @Override
     public String tittle() {
-        return "Triangle: sideA = " + sideA + ", sideB =  " + sideB + ", sideC = " + sideC + ".";
+        return "Triangle with sides : sideA = " + sideA + ", sideB =  " + sideB + ", sideC = " + sideC + ".";
     }
 
     @Override

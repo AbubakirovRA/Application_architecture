@@ -11,7 +11,7 @@ public class Rectangle extends Figures {
 
     @Override
     public String tittle(){
-        return "Rectangle " + length + " x " + width + ".";
+        return "Rectangle with sides: " + length + " x " + width + ".";
     }
 
     @Override
