@@ -14,6 +14,7 @@
 9. class Texture
 
 добавленные (отсутствующие на схеме) классы:
+
 10. class Angle3D
 11. class Color
 12. class Point3D
