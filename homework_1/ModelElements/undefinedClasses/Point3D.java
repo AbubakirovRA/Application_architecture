@@ -1,4 +1,4 @@
-package ModelElements;
+package ModelElements.undefinedClasses;
 
 public class Point3D {
     private double x;
@@ -16,7 +16,7 @@ public class Point3D {
     }
 
     public void setX(double x) {
-        this.x = x;
+        this.x = getX();
     }
 
     public double getY() {
@@ -24,7 +24,7 @@ public class Point3D {
     }
 
     public void setY(double y) {
-        this.y = y;
+        this.y = getY();
     }
 
     public double getZ() {
@@ -32,6 +32,6 @@ public class Point3D {
     }
 
     public void setZ(double z) {
-        this.z = z;
+        this.z = getZ();
     }
 }
