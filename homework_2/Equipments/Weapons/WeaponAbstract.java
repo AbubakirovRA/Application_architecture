@@ -1,6 +1,8 @@
 package Equipments.Weapons;
 
-public abstract class Weapon {
+import Equipments.Equipment;
+
+public abstract class WeaponAbstract extends Equipment{
     protected String name;
     protected int damage;
 
@@ -8,7 +10,7 @@ public abstract class Weapon {
         return name;
     }
 
-    public Weapon(String name, int damage) {
+    protected WeaponAbstract(String name, int damage) {
         this.name = name;
         this.damage = damage;
     }

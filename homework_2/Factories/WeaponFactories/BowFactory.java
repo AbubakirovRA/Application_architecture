@@ -1,8 +1,8 @@
 package Factories.WeaponFactories;
 
-import Equipments.Weapons.Bow;
-import Equipments.Weapons.EpicBow;
+import Equipments.Weapons.BadBow;
 import Equipments.Weapons.SimpleBow;
+import Equipments.Weapons.GoodBow;
 
 public class BowFactory extends WeaponFactory{
 
@@ -10,16 +10,15 @@ public class BowFactory extends WeaponFactory{
 
     private BowFactory(){};
 
-    public static BowFactory getFactory(){
+    public static BowFactory runFactory(){
         return instance == null ? new BowFactory() : instance;
     };
 
     @Override
-    public Bow createWeapon(String weaponType) {
-        if (weaponType.equalsIgnoreCase("SimpleBow")) {return new SimpleBow("Wooden Bow", 1, 3);}
-        if (weaponType.equalsIgnoreCase("EpicBow")) {return new EpicBow("Elven Bow", 4, 4);}
+    public SimpleBow createWeapon(String weaponType) {
+        if (weaponType.equalsIgnoreCase("BadBow")) {return new BadBow("Bad Bow", 1, 3);}
+        if (weaponType.equalsIgnoreCase("GoodBow")) {return new GoodBow("Good Bow", 4, 4);}
         
-        //ToDo если не получилось создать ни одного лука, вернуть exception неправильный weaponType (либо сделать weaponType Enum)
         return null;
     }
     

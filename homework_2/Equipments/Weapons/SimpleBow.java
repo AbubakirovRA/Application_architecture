@@ -1,9 +1,12 @@
 package Equipments.Weapons;
 
-public class SimpleBow extends Bow{
+public abstract class SimpleBow extends WeaponAbstract {
+
+    protected int range;
 
     public SimpleBow(String name, int damage, int range) {
-        super(name, damage, range);
+        super(name, damage);
+        this.range = range;
     }
     
 }

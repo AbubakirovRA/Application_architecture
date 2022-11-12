@@ -1,7 +1,7 @@
 package Factories.WeaponFactories;
 
-import Equipments.Weapons.Weapon;
+import Equipments.Weapons.WeaponAbstract;
 
 public abstract class WeaponFactory {
-    public abstract Weapon createWeapon(String weaponType);
+    public abstract WeaponAbstract createWeapon(String weaponType);
 }

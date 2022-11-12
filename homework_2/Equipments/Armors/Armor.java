@@ -1,12 +1,14 @@
 package Equipments.Armors;
 
-public abstract class Armor {
-    protected String name;
-    protected int defence;
+import Equipments.Equipment;
 
-    public Armor(String name, int defence) {
+public abstract class Armor extends Equipment{
+    protected String name;
+    protected int level;
+    
+    protected Armor(String name, int level) {
         this.name = name;
-        this.defence = defence;
+        this.level = level;
     }
 
     public String getName() {

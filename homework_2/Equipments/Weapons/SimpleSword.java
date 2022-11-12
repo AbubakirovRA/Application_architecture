@@ -1,6 +1,6 @@
 package Equipments.Weapons;
 
-public class SimpleSword extends Sword {
+public abstract class SimpleSword extends WeaponAbstract{
 
     public SimpleSword(String name, int damage) {
         super(name, damage);
