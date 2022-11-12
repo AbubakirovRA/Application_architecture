@@ -1,7 +1,7 @@
 package Equipments;
 
 public abstract class Equipment {
-    protected int level;
+    protected String name;
 
     protected Equipment(){};
 }
