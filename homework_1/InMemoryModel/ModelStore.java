@@ -11,7 +11,7 @@ public class ModelStore implements IModelChanger{
     public Flash flashes;
     public Camera cameras;
     
-    private IModelChangedObserver changedObservers;
+    private IModelChangedObserver changeObservers;
 
     public Scene getScene(int i){
         return scenes;
