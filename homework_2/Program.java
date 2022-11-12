@@ -18,8 +18,8 @@ public class Program {
         ArmorFactory chainMailFactory = ChainMailFactory.runFactory();
         ArmorFactory corseletFactory = CorseletFactory.runFactory();
 
-        Heroes Archer = new Archer("Archer", 20, bowFactory.createWeapon("GoodBow"), chainMailFactory.createArmor("Base"));
-        Heroes Knight = new Knight("Knigth", 50, swordFactory.createWeapon("BadSword"), corseletFactory.createArmor("Base"));
+        Heroes Archer = new Archer("Archer", 100, bowFactory.createWeapon("GoodBow"), chainMailFactory.createArmor("Base"));
+        Heroes Knight = new Knight("Knigth", 100, swordFactory.createWeapon("BadSword"), corseletFactory.createArmor("Base"));
 
         System.out.println();
         System.out.println(Archer.getTotalInfo());
