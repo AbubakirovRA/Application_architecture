@@ -11,9 +11,9 @@ public abstract class Heroes {
     protected WeaponAbstract weapon;
     protected Armor armor;
 
-    public Heroes(String name, int hp, WeaponAbstract weapon, Armor armor) {
+    public Heroes(String name, int health, WeaponAbstract weapon, Armor armor) {
         this.name = name;
-        this.health = hp;
+        this.health = health;
         this.weapon = weapon;
         this.armor = armor;
     }
