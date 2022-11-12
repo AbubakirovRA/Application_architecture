@@ -18,6 +18,8 @@
 10. class Angle3D
 11. class Color
 12. class Point3D
+13. class Picture
+14. class Type
 
 Из названия ясно, что программа должна работать с 3D -моделями.
 Проанализируем логику, представленную на UML-схеме.
