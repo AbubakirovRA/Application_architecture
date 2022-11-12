@@ -1,6 +1,6 @@
 package Characters;
 
-import Equipments.Armors.Armor;
+import Equipments.Armors.ArmorAbstract;
 import Equipments.Weapons.WeaponAbstract;
 /**
  * Heroes basic abstract class
@@ -9,9 +9,9 @@ public abstract class Heroes {
     protected String name;
     protected int health;
     protected WeaponAbstract weapon;
-    protected Armor armor;
+    protected ArmorAbstract armor;
 
-    public Heroes(String name, int health, WeaponAbstract weapon, Armor armor) {
+    public Heroes(String name, int health, WeaponAbstract weapon, ArmorAbstract armor) {
         this.name = name;
         this.health = health;
         this.weapon = weapon;

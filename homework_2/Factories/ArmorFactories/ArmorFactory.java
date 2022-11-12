@@ -1,10 +1,10 @@
 package Factories.ArmorFactories;
 
-import Equipments.Armors.Armor;
+import Equipments.Armors.ArmorAbstract;
 
 /**
  * ArmorFactory
  */
 public abstract class  ArmorFactory {
-    public abstract Armor createArmor(String armorType);
+    public abstract ArmorAbstract createArmor(String armorType);
 }
