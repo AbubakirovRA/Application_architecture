@@ -1,19 +1,21 @@
 package InMemoryModel;
 
+import java.util.ArrayList;
+
 import ModelElements.Camera;
 import ModelElements.Flash;
 import ModelElements.PoligonalModel;
 import ModelElements.Scene;
 
 public class ModelStore implements IModelChanger{
-    public PoligonalModel models;
-    public Scene scenes;
-    public Flash flashes;
-    public Camera cameras;
+    public ArrayList<PoligonalModel> models;
+    public ArrayList<Scene> scenes;
+    public ArrayList<Flash> flashes;
+    public ArrayList<Camera> cameras;
     
-    private IModelChangedObserver changeObservers;
+    private ArrayList<IModelChangedObserver> changeObservers;
 
-    public Scene getScene(int i){
+    public ArrayList<Scene> getScene(int i){
         return scenes;
     }
     

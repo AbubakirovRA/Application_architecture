@@ -1,14 +1,15 @@
 package ModelElements;
 
 import java.lang.ProcessBuilder.Redirect.Type;
+import java.util.ArrayList;
 
 public class Scene {
     public int id;
-    public PoligonalModel models;
-    public Flash flashes;
-    public Camera cameras;
+    public ArrayList<PoligonalModel> models;
+    public ArrayList<Flash> flashes;
+    public ArrayList<Camera> cameras;
 
-    public Scene(int id, PoligonalModel models, Flash flashes, Camera cameras){
+    public Scene(int id, ArrayList<PoligonalModel> models, ArrayList<Flash> flashes, ArrayList<Camera> cameras){
         this.id = id;
         this.models = models;
         this.flashes = flashes;
@@ -22,24 +23,24 @@ public class Scene {
         this.id= getId();
     }
 
-    public PoligonalModel getModels(){
+    public ArrayList<PoligonalModel> getModels(){
         return models;
     }
-    public void setModels(PoligonalModel models){
+    public void setModels(ArrayList<PoligonalModel> models){
         this.models = getModels();
     }
 
-    public Flash getFlashes(){
+    public ArrayList<Flash> getFlashes(){
         return flashes;
     }
-    public void setFlashes(Flash flashes){
+    public void setFlashes(ArrayList<Flash> flashes){
         this.flashes = getFlashes();
     }
 
-    public Camera getCameras(){
+    public ArrayList<Camera> getCameras(){
         return cameras;
     }
-    public void setCameras(Camera cameras){
+    public void setCameras(ArrayList<Camera> cameras){
         this.cameras = getCameras();
     }
 
