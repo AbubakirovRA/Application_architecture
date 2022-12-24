@@ -1,11 +1,393 @@
 <mxfile host="65bd71144e">
     <diagram id="s6QB7qDBIl1rn6C7woFl" name="Page-1">
-        <mxGraphModel dx="1900" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1247" dy="1389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Физический уровень" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="350" y="380" width="340" height="60" as="geometry"/>
+                <mxCell id="69" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Cloud Service&lt;/font&gt;" style="html=1;align=left;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="-530" width="1010" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="131" y="351" width="900" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Конечное периферийное устройство (пылесос)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="32" vertex="1">
+                    <mxGeometry width="280" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="group" parent="32" vertex="1" connectable="0">
+                    <mxGeometry y="20" width="900" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;Phisical Layer Component&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" parent="31" vertex="1">
+                    <mxGeometry width="900" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="2" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-24" y="4" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="" style="group" parent="31" vertex="1" connectable="0">
+                    <mxGeometry x="245" y="45" width="360" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="UI/UX Layer" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;" parent="17" vertex="1">
+                    <mxGeometry width="360" height="119.99999999999999" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Configuration (конфигуратор системы)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" parent="17" vertex="1">
+                    <mxGeometry x="35" y="32.72727272727273" width="130" height="54.54545454545454" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Local network Layer (компонент связи с локальной сетью)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" parent="17" vertex="1">
+                    <mxGeometry x="190" y="32.72727272727273" width="150" height="54.54545454545454" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="group" parent="31" vertex="1" connectable="0">
+                    <mxGeometry x="245" y="220" width="390" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Busines logic (слой бизнес логики)" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;" parent="19" vertex="1">
+                    <mxGeometry width="390" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Watchdog (сторожевой таймер перезагрузки)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" parent="19" vertex="1">
+                    <mxGeometry x="243" y="38" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Sensors (датчики)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" parent="19" vertex="1">
+                    <mxGeometry x="249" y="142" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Main Module" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="19" vertex="1">
+                    <mxGeometry y="30" width="190" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="State Mashine (конечный автомат состояний)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" parent="19" vertex="1">
+                    <mxGeometry x="30" y="60" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Main Logic (основная логика системы)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" parent="19" vertex="1">
+                    <mxGeometry x="40" y="130" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="19" source="4" target="12" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="155" y="50" as="sourcePoint"/>
+                        <mxPoint x="315" y="50" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;" parent="19" source="6" target="12" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="155" y="38" as="sourcePoint"/>
+                        <mxPoint x="315" y="38" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="" style="group" parent="31" vertex="1" connectable="0">
+                    <mxGeometry x="670" y="210" width="210" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="DAO (слой данных)" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;" parent="22" vertex="1">
+                    <mxGeometry width="210.00000000000003" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Collected Data (собранные данные)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" parent="22" vertex="1">
+                    <mxGeometry x="30.99789473684211" y="89" width="143.6842105263158" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;div style=&quot;text-align: justify&quot;&gt;Четыре состояния:&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;1. Режим сна&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;2. Режим&amp;nbsp; работы, измерения и&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;сбора информации с датчиков&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;3. Режим связи, передачи&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;и получения информаци&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;4. Режим установки и&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;подключения&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;Периферийное устройство&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;объединяет три уровня:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;физический, периферийного&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;вычисления и коммуникационный.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;Основная функциональность&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;уровня периферийного&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;вычисления - локальная ETL&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;(Extract, Transformation and Load)&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;— получение, преобразование&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;и сохранение информации&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;с датчиков. Этот уровень&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;о&lt;span&gt;тветственен не только за сбор&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;информацию с датчика,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;но также и за приведение ее к&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;стандартному виду, фильтрацию&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;помех, предварительный анализ&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;и локальное сохранение.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;" parent="31" vertex="1">
+                    <mxGeometry x="20" y="40" width="210" height="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="group" parent="31" vertex="1" connectable="0">
+                    <mxGeometry x="660" y="45" width="220" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Power (логика управления питанием)" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;" parent="30" vertex="1">
+                    <mxGeometry width="220" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Battery (батарея питания с адаптером питания)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" parent="30" vertex="1">
+                    <mxGeometry x="30" y="35" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="31" source="24" target="12" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="400" y="258" as="sourcePoint"/>
+                        <mxPoint x="560" y="258" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="650" y="115"/>
+                            <mxPoint x="650" y="250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="31" source="12" target="10" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="400" y="258" as="sourcePoint"/>
+                        <mxPoint x="560" y="258" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="293" y="198"/>
+                            <mxPoint x="345" y="198"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="31" source="12" target="16" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="400" y="258" as="sourcePoint"/>
+                        <mxPoint x="560" y="258" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="388" y="198"/>
+                            <mxPoint x="510" y="198"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;entryX=0;entryY=0;entryDx=0;entryDy=35;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="31" source="12" target="9" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="400" y="258" as="sourcePoint"/>
+                        <mxPoint x="560" y="258" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="180" y="-60" width="800" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Local GateWay Layer (локальный шлюз)&lt;/b&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" parent="50" vertex="1">
+                    <mxGeometry width="800" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="44" vertex="1">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-24" y="4" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="&lt;div style=&quot;text-align: justify ; font-size: 10px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 10px&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;Осуществляет второй уровень&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 10px&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;ETL&amp;nbsp;&lt;/font&gt;&lt;span&gt;от своих периферийных&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 10px&quot;&gt;&lt;span&gt;устройств.&amp;nbsp;&lt;/span&gt;&lt;span&gt;Фиксирует&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 10px&quot;&gt;&lt;span&gt;критические ситуации&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 10px&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;&amp;nbsp;и выдает локальную реакцию,&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 10px&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;даже без связи с BackEnd.&lt;/font&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 10px&quot;&gt;&lt;span&gt;Коммуницирует с BackЕnd.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 10px&quot;&gt;&lt;span&gt;Отправляет на сервер&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 10px&quot;&gt;&lt;span&gt;обработанную&amp;nbsp;&lt;/span&gt;&lt;span&gt;информацию&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 10px&quot;&gt;&lt;span&gt;с периферийных&amp;nbsp;&lt;/span&gt;&lt;span&gt;устройств&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 10px&quot;&gt;&lt;span&gt;и получает данные&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 10px&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;конфигурации для&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 10px&quot;&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;периферийных&amp;nbsp;&lt;/font&gt;&lt;font&gt;устройства.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 10px&quot;&gt;&lt;span&gt;Сохраняет&amp;nbsp;&lt;/span&gt;&lt;span&gt;информацию о&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 10px&quot;&gt;&lt;span&gt;статусе&amp;nbsp;&lt;/span&gt;&lt;span&gt;периферийных&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 10px&quot;&gt;&lt;span&gt;устройств,&amp;nbsp;&lt;/span&gt;&lt;span&gt;и данные ими&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify ; font-size: 10px&quot;&gt;&lt;span&gt;собранные.&lt;/span&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=20;dashed=1;" parent="50" vertex="1">
+                    <mxGeometry x="12.12" y="50" width="193.94" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="UI/UX Gateway's Layer" style="dashed=1;rounded=1;absoluteArcSize=1;arcSize=20;html=1;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;fontSize=10;" parent="50" vertex="1">
+                    <mxGeometry x="230.3" y="50" width="545.45" height="61.6" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="Gateway's Business Layer" style="dashed=1;rounded=1;absoluteArcSize=1;arcSize=20;html=1;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;fontSize=10;" parent="50" vertex="1">
+                    <mxGeometry x="230.3" y="134" width="545.45" height="64.56" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="Gateway's DAO Layer" style="dashed=1;rounded=1;absoluteArcSize=1;arcSize=20;html=1;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;fontSize=10;" parent="50" vertex="1">
+                    <mxGeometry x="230.3" y="220" width="545.45" height="62.4" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="576" y="296.29999999999995" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="ellipse;whiteSpace=wrap;html=1;align=center;aspect=fixed;resizable=0;points=[];outlineConnect=0;sketch=0;fontSize=10;rotation=90;" parent="55" vertex="1">
+                    <mxGeometry width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;sketch=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;fontSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="44" target="53" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-15" y="20.5" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=halfCircle;endFill=0;endSize=6;strokeWidth=1;sketch=0;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-15" y="152.5" as="sourcePoint"/>
+                        <mxPoint x="581" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="&lt;div&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;API's Protocols:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;ZigBee/ Zwave&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;BLE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;LoRa&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;Proprietary low band&lt;/font&gt;&lt;/div&gt;" style="html=1;align=left;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=20;dashed=1;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="271" width="110" height="89" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="420" y="-810" width="320" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="Client's Browser Fronend&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;mobile Frontend" style="dashed=1;rounded=1;absoluteArcSize=1;arcSize=20;html=1;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" vertex="1" parent="74">
+                    <mxGeometry width="320" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="image;html=1;image=img/lib/clip_art/computers/iMac_128x128.png" vertex="1" parent="74">
+                    <mxGeometry x="21.857142857142854" y="39.99666666666667" width="73.14285714285717" height="84.44444444444444" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="" style="image;html=1;image=img/lib/clip_art/telecommunication/iPhone_128x128.png" vertex="1" parent="74">
+                    <mxGeometry x="240.00285714285715" y="39.99666666666667" width="73.14285714285717" height="84.44444444444444" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="566" y="-165" width="30" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="group;rotation=-90;" parent="75" vertex="1" connectable="0">
+                    <mxGeometry x="-15" y="75" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="html=1;rounded=0;fontSize=10;rotation=-90;" parent="63" vertex="1">
+                    <mxGeometry x="15" y="15" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=2;fontSize=10;" parent="63" source="57" target="59" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="" style="ellipse;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;rotation=-90;" parent="63" vertex="1">
+                    <mxGeometry x="26" y="-15" width="8" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="group;rotation=90;" parent="75" vertex="1" connectable="0">
+                    <mxGeometry x="-15" y="15" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="html=1;rounded=0;fontSize=10;rotation=90;" parent="67" vertex="1">
+                    <mxGeometry x="15" y="-15" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=2;fontSize=10;" parent="67" source="64" target="66" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="" style="shape=requiredInterface;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;rotation=90;" parent="67" vertex="1">
+                    <mxGeometry x="28" y="38" width="5" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="520" y="-670" width="144.83" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;span&gt;REST API&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="90">
+                    <mxGeometry width="130" height="161.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="88">
+                    <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+                        <mxPoint x="-24" y="4" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" value="" style="group" vertex="1" connectable="0" parent="90">
+                    <mxGeometry x="53.99777777777778" y="38.356249999999996" width="90.83222222222224" height="131.64374999999998" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="group;rotation=-90;" vertex="1" connectable="0" parent="76">
+                    <mxGeometry x="-10.833333333333332" y="75.70312499999999" width="43.33333333333333" height="30.281249999999996" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="html=1;rounded=0;fontSize=10;rotation=-90;" vertex="1" parent="77">
+                    <mxGeometry x="11.943333333333332" y="15.140624999999998" width="21.666666666666664" height="30.281249999999996" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=2;fontSize=10;" edge="1" parent="77" source="78" target="80">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="" style="ellipse;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;rotation=-90;" vertex="1" parent="77">
+                    <mxGeometry x="18.77777777777778" y="-15.140624999999998" width="8" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="" style="group;rotation=90;" vertex="1" connectable="0" parent="76">
+                    <mxGeometry x="-10.833333333333332" y="15.140624999999998" width="43.33333333333333" height="30.281249999999996" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="html=1;rounded=0;fontSize=10;rotation=90;" vertex="1" parent="81">
+                    <mxGeometry x="11.469999999999999" y="-16.91263888888889" width="22.5" height="33.089555555555556" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=2;fontSize=10;" edge="1" parent="81" source="82" target="84">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="" style="shape=requiredInterface;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;rotation=90;" vertex="1" parent="81">
+                    <mxGeometry x="20.22222222222222" y="38.356249999999996" width="5" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="239" value="Internal Microservices API's" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="76">
+                    <mxGeometry x="-69.16777777777776" y="128.64374999999998" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.208;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="70" target="88">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="440" y="-620" as="sourcePoint"/>
+                        <mxPoint x="600" y="-620" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="547" y="-686"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="93" value="" style="endArrow=open;endFill=1;endSize=12;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="72" target="88">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="440" y="-620" as="sourcePoint"/>
+                        <mxPoint x="600" y="-620" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="618" y="-690"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="94" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="-520" width="20" height="20" as="geometry">
+                        <mxPoint x="935" y="307" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="104" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="94" y="-474" width="170" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="Log MicroService" style="dashed=1;rounded=1;absoluteArcSize=1;arcSize=20;html=1;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" vertex="1" parent="104">
+                    <mxGeometry width="170" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="" style="group" vertex="1" connectable="0" parent="104">
+                    <mxGeometry x="29.75" y="44" width="119" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="Analysis business-logic Layer" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="98">
+                    <mxGeometry width="119" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="Prometheus database &amp; metrics  layer" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="98">
+                    <mxGeometry y="70" width="119" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="Grafana dashboard UI/UX layer" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="98">
+                    <mxGeometry y="140" width="119" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="274" y="-474" width="150" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="Authentification &lt;br&gt;MicroService" style="dashed=1;rounded=1;absoluteArcSize=1;arcSize=20;html=1;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" vertex="1" parent="107">
+                    <mxGeometry width="150" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="" style="group" vertex="1" connectable="0" parent="107">
+                    <mxGeometry x="8.823529411764707" y="45" width="123.52941176470587" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="Authentification service (business-logic Layer)&#10;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="106">
+                    <mxGeometry width="123.52941176470587" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="Auth Log service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="106">
+                    <mxGeometry y="70" width="123.52941176470587" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="Auth DataBase servise" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="106">
+                    <mxGeometry y="140" width="123.52941176470587" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="434" y="-474" width="150" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="Accounts MicroService" style="dashed=1;rounded=1;absoluteArcSize=1;arcSize=20;html=1;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" vertex="1" parent="108">
+                    <mxGeometry width="150" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="" style="group" vertex="1" connectable="0" parent="108">
+                    <mxGeometry x="8.823529411764707" y="43" width="123.52941176470587" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="User Accounts service (business-logic Layer)&#10;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="110">
+                    <mxGeometry width="123.52941176470587" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="Account Log service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="110">
+                    <mxGeometry y="70" width="123.52941176470587" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="Accounts DataBase servise" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="110">
+                    <mxGeometry y="140" width="123.52941176470587" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="594" y="-474" width="150" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="Configuration&lt;br&gt;MicroService" style="dashed=1;rounded=1;absoluteArcSize=1;arcSize=20;html=1;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" vertex="1" parent="114">
+                    <mxGeometry width="150" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="" style="group" vertex="1" connectable="0" parent="114">
+                    <mxGeometry x="8.823529411764707" y="43" width="123.52941176470587" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="Configuration service (business-logic Layer)&#10;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="116">
+                    <mxGeometry width="123.52941176470587" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="Configuration Log service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="116">
+                    <mxGeometry y="70" width="123.52941176470587" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="Configuration DataBase servise" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="116">
+                    <mxGeometry y="140" width="123.52941176470587" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="754" y="-474" width="150" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="Ststistic&lt;br&gt;MicroService" style="dashed=1;rounded=1;absoluteArcSize=1;arcSize=20;html=1;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" vertex="1" parent="120">
+                    <mxGeometry width="150" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="" style="group" vertex="1" connectable="0" parent="120">
+                    <mxGeometry x="8.823529411764707" y="43" width="123.52941176470587" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="Statistic service (business-logic Layer)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="122">
+                    <mxGeometry width="123.52941176470587" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" value="Statistic Log service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="122">
+                    <mxGeometry y="70" width="123.52941176470587" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" value="Statistic DataBase servise" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="122">
+                    <mxGeometry y="140" width="123.52941176470587" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="920" y="-474" width="150" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="Notification&lt;br&gt;MicroService" style="dashed=1;rounded=1;absoluteArcSize=1;arcSize=20;html=1;verticalAlign=top;align=left;spacingTop=5;spacingLeft=10;" vertex="1" parent="126">
+                    <mxGeometry width="150" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="" style="group" vertex="1" connectable="0" parent="126">
+                    <mxGeometry x="8.823529411764707" y="43" width="123.52941176470587" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="Notification service (business-logic Layer)" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="128">
+                    <mxGeometry width="123.52941176470587" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="NotificationLog service" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="128">
+                    <mxGeometry y="70" width="123.52941176470587" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" value="Notification &#10;DataBase servise" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;" vertex="1" parent="128">
+                    <mxGeometry y="140" width="123.52941176470587" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" value="HTTP API Gateway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="594" y="-115" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="InterFace" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="496" y="296.29999999999995" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="240" value="Gateway BFF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="-590" width="90" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
