@@ -46,13 +46,13 @@ UI — тесты, которые проверяют работу пользов
 
 В рамках задания, выполним ранее тестирование ранее разработанных REST запросов на локально установленном сервере Postman:
 
-![E2E_tests](E2Etests\test_createUser.png)
+![E2E_tests](test_createUser.png)
 
-![E2E_tests](E2Etests\test_firmware_download.png)
+![E2E_tests](test_firmware_download.png)
 
-![E2E_tests](E2Etests\test_last_version.png)
+![E2E_tests](test_last_version.png)
 
-![E2E_tests](E2Etests\test_mistake.png)
+![E2E_tests](test_mistake.png)
 
 o. Предложить и разработать приёмочные тесты (UAT) для сценариев Use case <https://www.gurock.com/testrail/> или аналоги.
 
